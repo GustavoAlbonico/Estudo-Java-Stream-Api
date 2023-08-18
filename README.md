@@ -12,3 +12,4 @@ Lista de exercicios:
 7. Write a Java program to find the maximum and minimum values in a list of integers using streams.
 8. Write a Java program to find the second smallest and largest elements in a list of integers using streams.
 
+referencia:https://www.w3resource.com/java-exercises/stream/index.php
