@@ -2,13 +2,13 @@ package br.com.streamapi.service;
 
 import java.util.List;
 
-import br.com.streamapi.bo.CalculaMediaBO;
+import br.com.streamapi.bo.ExUmCalculaMediaBO;
 
 public class ExercicioUmSERVICE {
 	
 	public Double calculaMedia (List<Integer> listaNumero) {
 		
-		CalculaMediaBO calculaMedia = new CalculaMediaBO();
+		ExUmCalculaMediaBO calculaMedia = new ExUmCalculaMediaBO();
 		
 		return calculaMedia.calcularMedia(listaNumero);
 	}

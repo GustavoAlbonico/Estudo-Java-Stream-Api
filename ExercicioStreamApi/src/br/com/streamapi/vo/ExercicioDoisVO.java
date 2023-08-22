@@ -13,7 +13,6 @@ public class ExercicioDoisVO {
 		this.nome = nome;
 	}
 	
-	
 	public void adicionarAmigo(String amigo) {
 		listaDeAmigos.add(amigo);
 	}

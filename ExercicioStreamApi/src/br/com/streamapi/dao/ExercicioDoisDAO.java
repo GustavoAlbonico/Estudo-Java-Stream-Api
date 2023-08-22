@@ -1,8 +1,6 @@
 package br.com.streamapi.dao;
-
 import java.util.ArrayList;
 import java.util.List;
-
 import br.com.streamapi.vo.ExercicioDoisVO;
 
 
@@ -17,6 +15,7 @@ private static List<ExercicioDoisVO> listaExercicio = new ArrayList<ExercicioDoi
 	}
 
 	public static List<ExercicioDoisVO> buscaTodos () {
+		
 		return listaExercicio;
 	}
 

@@ -7,16 +7,16 @@ import br.com.streamapi.vo.ExercicioQuatroVO;
 
 public class ExercicioQuatroDAO {
 	
-	private static List<ExercicioQuatroVO> listaExercicio04 = new ArrayList<ExercicioQuatroVO>();
+	private static List<ExercicioQuatroVO> listaExercicio = new ArrayList<ExercicioQuatroVO>();
 	
 	
 	public static void salvarExercicio(ExercicioQuatroVO exercicio) {
-		listaExercicio04.add(exercicio);
+		listaExercicio.add(exercicio);
 		
 	}
 	
 	public static List<ExercicioQuatroVO> buscaTodos(){
-		return listaExercicio04;
+		return listaExercicio;
 	}
 
 }

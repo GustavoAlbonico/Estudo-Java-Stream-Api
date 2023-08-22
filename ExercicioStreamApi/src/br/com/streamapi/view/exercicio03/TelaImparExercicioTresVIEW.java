@@ -1,7 +1,5 @@
 package br.com.streamapi.view.exercicio03;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -9,13 +7,10 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.JTable;
 import javax.swing.border.EmptyBorder;
 
 import br.com.streamapi.dao.ExercicioTresDAO;
-import br.com.streamapi.dao.ExercicioUmDAO;
 import br.com.streamapi.service.ExercicioTresSERVICE;
-import br.com.streamapi.service.ExercicioUmSERVICE;
 import javax.swing.SwingConstants;
 
 public class TelaImparExercicioTresVIEW extends JFrame {

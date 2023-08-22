@@ -8,7 +8,7 @@ import java.util.List;
 
 
 
-public class CalculaMediaBO {
+public class ExUmCalculaMediaBO {
 	
 	public Double calcularMedia (List<Integer> listaNumeros) {
 		

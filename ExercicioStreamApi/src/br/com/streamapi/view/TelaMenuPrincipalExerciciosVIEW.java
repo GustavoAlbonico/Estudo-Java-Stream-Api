@@ -1,7 +1,5 @@
 package br.com.streamapi.view;
 
-import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JButton;
 import javax.swing.JLabel;
@@ -15,13 +13,6 @@ import java.awt.event.ActionEvent;
 
 public class TelaMenuPrincipalExerciciosVIEW extends JFrame {
 
-	/**
-	 * Launch the application.
-	 */
-
-	/**
-	 * Create the frame.
-	 */
 	public TelaMenuPrincipalExerciciosVIEW() {
 		setTitle("Menu Principal Exercicios");
 		setResizable(false);

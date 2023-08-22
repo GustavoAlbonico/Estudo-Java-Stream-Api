@@ -1,13 +1,9 @@
 package br.com.streamapi.view.exercicio01;
 
-import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
-
-import br.com.streamapi.dao.ExercicioUmDAO;
-import br.com.streamapi.vo.ExercicioUmVO;
 
 import javax.swing.JLabel;
 import javax.swing.SwingConstants;
@@ -19,13 +15,6 @@ public class TelaEscolhaExercicioUmVIEW extends JFrame {
 
 	private JPanel contentPane;
 
-	/**
-	 * Launch the application.
-	 */
-
-	/**
-	 * Create the frame.
-	 */
 	public TelaEscolhaExercicioUmVIEW() {
 		setTitle("Exercicio01");
 		setResizable(false);

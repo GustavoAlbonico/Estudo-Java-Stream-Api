@@ -1,10 +1,11 @@
 package br.com.streamapi.view.exercicio02;
 
 import java.awt.BorderLayout;
-import java.awt.EventQueue;
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.swing.JFrame;
+
 import javax.swing.JTable;
 
 import br.com.streamapi.dao.ExercicioDoisDAO;
@@ -43,11 +44,14 @@ public class TelaLowerExercicioDoisVIEW extends JFrame {
 			ExercicioDoisDAO exercicioDoisDAO = new ExercicioDoisDAO();
 			
 			
-			List<String> listaAmisgos = service.amigosLowerCase(exercicioDoisDAO.buscaTodos().get(0).getListaDeAmigos());
+			List<String> listaAmigos = new ArrayList<String>();
 			
 			
+				listaAmigos = service.amigosLowerCase(exercicioDoisDAO.buscaTodos().get(0).getListaDeAmigos());
+				
+				
 			
-			return listaAmisgos ;
+			return listaAmigos ;
 			
 		}
 
