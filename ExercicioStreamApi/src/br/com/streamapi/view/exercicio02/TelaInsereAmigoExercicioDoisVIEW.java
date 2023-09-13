@@ -1,9 +1,8 @@
 package br.com.streamapi.view.exercicio02;
 
-import java.awt.EventQueue;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.Closeable;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -11,7 +10,6 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.border.EmptyBorder;
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction;
 
 import br.com.streamapi.dao.ExercicioDoisDAO;
 import br.com.streamapi.vo.ExercicioDoisVO;

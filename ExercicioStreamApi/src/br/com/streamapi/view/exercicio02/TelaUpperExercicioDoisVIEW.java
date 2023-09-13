@@ -1,27 +1,12 @@
 package br.com.streamapi.view.exercicio02;
 
 import java.awt.BorderLayout;
-import java.awt.EventQueue;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.Iterator;
+import java.util.ArrayList;
 import java.util.List;
-
-import javax.swing.JButton;
 import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
-
+import javax.swing.JTable;
 import br.com.streamapi.dao.ExercicioDoisDAO;
 import br.com.streamapi.service.ExercicioDoisSERVICE;
-import javax.swing.JList;
-import javax.swing.JTextField;
-import javax.swing.JTextPane;
-import javax.swing.JTable;
-import javax.swing.event.AncestorListener;
-import javax.swing.table.DefaultTableModel;
-import javax.swing.event.AncestorEvent;
 
 public class TelaUpperExercicioDoisVIEW extends JFrame {
 
@@ -54,12 +39,11 @@ public class TelaUpperExercicioDoisVIEW extends JFrame {
 		
 		ExercicioDoisSERVICE service = new ExercicioDoisSERVICE();
 		ExercicioDoisDAO exercicioDoisDAO = new ExercicioDoisDAO();
+		List<String> listaAmigos = new ArrayList<String>();
 		
+		listaAmigos = service.amigosUperCase(exercicioDoisDAO.buscaTodos().get(0).getListaDeAmigos());
 		
-		List<String> listaAmisgos = service.amigosUperCase(exercicioDoisDAO.buscaTodos().get(0).getListaDeAmigos());
-		
-		
-		return listaAmisgos  ;
+		return listaAmigos;
 		
 	}
 }

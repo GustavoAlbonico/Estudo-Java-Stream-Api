@@ -1,6 +1,6 @@
 package br.com.streamapi.view.exercicio01;
 
-import java.awt.EventQueue;
+
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -12,7 +12,6 @@ import br.com.streamapi.vo.ExercicioUmVO;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 import javax.swing.JButton;
-import javax.swing.SwingConstants;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
@@ -24,14 +23,6 @@ public class TelaNumeroExercicioUmVIEW extends JFrame {
 	ExercicioUmDAO exercicioUmDAO = new ExercicioUmDAO();
 	
 	
-
-	/**
-	 * Launch the application.
-	 */
-
-	/**
-	 * Create the frame.
-	 */
 	public TelaNumeroExercicioUmVIEW() {
 		setResizable(false);
 		setTitle("Exercicio01");

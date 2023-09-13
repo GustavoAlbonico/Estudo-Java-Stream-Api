@@ -1,7 +1,5 @@
 package br.com.streamapi.view.exercicio01;
 
-import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
@@ -18,13 +16,6 @@ public class TelaMediaExercicioUmVIEW extends JFrame {
 
 	private JPanel contentPane;
 
-	/**
-	 * Launch the application.
-	 */
-
-	/**
-	 * Create the frame.
-	 */
 	public TelaMediaExercicioUmVIEW() {
 		setTitle("Exercicio01");
 		setResizable(false);

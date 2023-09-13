@@ -2,7 +2,7 @@ package br.com.streamapi.bo;
 
 import java.util.List;
 
-public class ListaNumerosImparParBO {
+public class ExTresListaNumerosImparParBO {
 	
 	/**
 	 * pega a lista com os valores e pega apenas os pares ou impares, dependendo do 
